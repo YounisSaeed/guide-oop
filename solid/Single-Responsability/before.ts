@@ -1,6 +1,6 @@
 // bad example of oop before using SRP
 
-class AuthenticationService {
+class Authenticationservice {
     private users: Map<string, {username: string; password:string}> = new Map();
 
     constructor() {
