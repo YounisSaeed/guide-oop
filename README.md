@@ -20,7 +20,7 @@ By following the Open-Closed Principle, you can easily extend and enhance the so
 
 ### Example
 
-Consider a project that calculates the area of different shapes: circles, rectangles. The Open-Closed Principle is applied by defining a `Shape` interface and implementing it for circles and rectangles. A new shape, `rectangles`, is added to the system without modifying the existing classes. This demonstrates extension without modification, as the `Shape` class and its implementations remain closed for modification.
+Consider a project that calculates the area of different shapes: circles, rectangles, and triangles. The Open-Closed Principle is applied by defining a `Shape` interface and implementing it for circles and rectangles. A new shape, `Triangle`, is added to the system without modifying the existing classes. This demonstrates extension without modification, as the `Shape` class and its implementations remain closed for modification.
 
 ```typescript
 // Define the Shape interface with a method to calculate the area.
