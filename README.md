@@ -1,4 +1,5 @@
 # guide-oop
+<<<<<<< HEAD
 ## Open-Closed Principle
 
 The Open-Closed Principle (OCP) is one of the SOLID principles of object-oriented design. It states that software entities (classes, modules, functions) should be open for extension but closed for modification. In other words, you should be able to add new functionality to a software component without modifying its existing code.
@@ -64,3 +65,5 @@ class Calculator {
         return shape.calculateArea();
     }
 }
+=======
+>>>>>>> parent of 5431a4f (open close principle)
