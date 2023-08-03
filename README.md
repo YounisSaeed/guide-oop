@@ -64,10 +64,3 @@ class Calculator {
         return shape.calculateArea();
     }
 }
-
-class Calculator22 {
-    static calculateShapeArea(shape: Shape): number {
-        // Call the calculateArea() method of the provided shape to get the area.
-        return shape.calculateArea();
-    }
-}
